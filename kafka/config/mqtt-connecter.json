@@ -1,0 +1,15 @@
+{
+  "name": "mqtt-connector",
+  "config": {
+    "connector.class": "io.confluent.connect.mqtt.MqttSourceConnector",
+    "confluent.topic.replication.factor": "1",
+    "tasks.max": "1",
+    "mqtt.server.uri": "tcp://34.64.120.233:1883",
+    "mqtt.topics": "coord",
+    "kafka.topic": "coord",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "confluent.topic.bootstrap.servers": "43.201.20.124:9092"
+  }
+}
