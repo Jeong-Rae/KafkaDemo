@@ -1,7 +1,0 @@
-[2023-11-10 05:15:54,065] INFO [QuorumController id=1] handleBrokerFenced: changing 52 partition(s) (org.apache.kafka.controller.ReplicationControlManager)
-[2023-11-10 05:15:54,068] INFO [QuorumController id=1] Replayed BrokerRegistrationChangeRecord modifying the registration for broker 1: BrokerRegistrationChangeRecord(brokerId=1, brokerEpoch=186, fenced=1, inControlledShutdown=0) (org.apache.kafka.controller.ClusterControlManager)
-[2023-11-10 05:15:54,150] INFO [QuorumController id=1] processBrokerHeartbeat: event unable to start processing because of TimeoutException. (org.apache.kafka.controller.QuorumController)
-[2023-11-10 05:15:54,152] ERROR [QuorumController id=1] processExpiredBrokerHeartbeat: controller event queue overloaded. Timed out heartbeat from broker 1. (org.apache.kafka.controller.ReplicationControlManager)
-[2023-11-10 05:15:54,200] INFO [QuorumController id=1] The request from broker 1 to unfence has been granted because it has caught up with the offset of its register broker record 186. (org.apache.kafka.controller.BrokerHeartbeatManager)
-[2023-11-10 05:15:54,201] INFO [QuorumController id=1] handleBrokerUnfenced: changing 52 partition(s) (org.apache.kafka.controller.ReplicationControlManager)
-[2023-11-10 05:15:54,201] INFO [QuorumController id=1] Replayed BrokerRegistrationChangeRecord modifying the registration for broker 1: BrokerRegistrationChangeRecord(brokerId=1, brokerEpoch=186, fenced=-1, inControlledShutdown=0) (org.apache.kafka.controller.ClusterControlManager)

@@ -1,2 +1,1 @@
-[2023-11-18 16:00:21,710] INFO [AdminClient clientId=connect-cluster-shared-admin] Node 1 disconnected. (org.apache.kafka.clients.NetworkClient:977)
-[2023-11-18 16:05:21,912] INFO [AdminClient clientId=connect-cluster-shared-admin] Node 1 disconnected. (org.apache.kafka.clients.NetworkClient:977)
+
