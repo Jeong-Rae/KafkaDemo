@@ -134,7 +134,7 @@ curl -X POST -H "Content-Type: application/json" --data @/${KAFKA_HOME}/config/m
 REST api를 사용하여 커넥터를 등록한다.  
 이 시점에서 mqtt 브로커와 kafka가 연결된다.
 
-### kafka connecter 해제
+### kafka connector 해제
 
 ```shell
 curl -X DELETE http://localhost:8083/connectors/mqtt-connector
